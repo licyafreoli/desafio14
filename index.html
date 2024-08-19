@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Filmes</h1>
+        <input type="text" id="search-bar" placeholder="Buscar filmes...">
+    </header>
+    <main>
+        <section id="popular-movies">
+            <h2>Filmes Populares</h2>
+            <div id="movie-list"></div>
+        </section>
+        <section id="movie-details" style="display: none;">
+            <button id="back-button">Voltar</button>
+            <div id="details"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
